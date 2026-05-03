@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background-color: #f4f4f4;
+  line-height: 1.6;
+}
+
+/* Navigation bar */
+nav {
+  background-color: #2c3e50;
+  padding: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+nav a {
+  color: #ffffff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  color: #f39c12;
+}
+
+/* Main section container */
+section {
+  width: 80%;
+  margin: 20px auto;
+  background: #ffffff;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+/* Title */
+h1 {
+  text-align: center;
+  color: #333;
+}
+
+/* Intro text (replaces inline styling) */
+.intro {
+  font-size: 18px;
+  color: #2c3e50;
+}
+
+/* Image styling */
+img {
+  display: block;
+  margin: 20px auto;
+  border-radius: 10px;
+  max-width: 100%;
+}
+
+/* Flexbox layout for recipe sections */
+.recipe-grid {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+/* Ingredients and Instructions */
+.ingredients,
+.instructions {
+  flex: 1;
+  min-width: 250px;
+}
+
+/* Lists */
+ul,
+ol {
+  padding-left: 20px;
+}
+
+/* Headings */
+h2 {
+  color: #2c3e50;
+  margin-top: 20px;
+}
+
+/* Highlighted tips */
+mark {
+  background-color: #fff3cd;
+  padding: 5px;
+}
